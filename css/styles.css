@@ -12,12 +12,12 @@ main {
     grid-template-columns: 50% 50%;  /* sets each column to 50% */
   }
   #bio-note {
-    grid-column: 1;  /* sets which column the text appears in */
+    grid-column: 2;  /* sets which column the text appears in */
     grid-row: 1;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 0px 10px;
   }
   #profile-image {
-    grid-column: 2;  /* sets which column the image appears in */
+    grid-column: 1;  /* sets which column the image appears in */
     grid-row: 1;
   }
